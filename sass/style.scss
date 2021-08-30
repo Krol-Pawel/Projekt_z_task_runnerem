@@ -42,14 +42,9 @@ section {
     cursor: pointer;
     border-width: 2px;
     border-style: solid;
-}
-
-.btn-one {
     border-color: #ecf0f1;
     color: #7f8c8d;
     vertical-align: middle;
-    margin: auto;
-    padding: auto;
 }
 
 
@@ -95,15 +90,15 @@ nav {
     color: #27ae60; 
 }
 
-.navigation ul ul li{
-    display: block;
-    margin: 0 12px;
+// .navigation ul ul li{
+//     display: block;
+//     margin: 0 12px;
 
-}
+// }
 
-.navigation ul li ul{
-    display: none;
-}
+// .navigation ul li ul{
+//     display: none;
+// }
 
 .navigation ul li:hover ul {
     display: block;
@@ -168,25 +163,20 @@ nav {
     justify-content: center;
 }
 
-.icon {
-    font-size: 30px;
-    background: blue;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-
-
-.element {
-    flex-basis: 45%;
-}
+// .icon {
+//     font-size: 30px;
+//     background: blue;
+//     width: 60px;
+//     height: 60px;
+//     line-height: 60px;
+//     color: #fff;
+//     border-radius: 50%;
+//     display: inline-block;
+//     font-style: normal;
+//     font-variant: normal;
+//     text-rendering: auto;
+//     line-height: 1;
+// }
 
 .element {
     position: relative;
@@ -194,6 +184,7 @@ nav {
     width: 300px;
     height: 300px;
     margin: 20px;
+    flex-basis: 45%;
 }
 
 .skill-image {
@@ -276,9 +267,9 @@ nav {
 
 }
 
-.contact {
-    flex-direction: column;
-}
+// .contact {
+//     flex-direction: column;
+// }
 
 @media (min-width: 768px) and (max-width: 991px){
     .section-title{
